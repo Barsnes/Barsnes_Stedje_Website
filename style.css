@@ -103,7 +103,7 @@ p {
   font-size: 1em;
   margin-left: 10vw;
   margin-right: 10vw;
-  margin-top: 80vh;
+  margin-top: 90vh;
 }
 
 /* Background Style */
@@ -133,8 +133,8 @@ p {
   background-color: #777777;
   height: 80vh;
   width: 100vw;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
   z-index: -225;
   margin-top: -.1em;
 }
