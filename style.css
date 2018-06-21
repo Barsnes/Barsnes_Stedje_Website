@@ -175,10 +175,12 @@ p {
 
 .products_content img{
   height: auto;
-  width: 40vw;
+  width: 35vw;
   padding: 5%;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
-  margin-left: calc(50%-4em)
+  display: block;
 }
 
 @media only screen and (max-width: 600px){
