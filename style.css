@@ -18,7 +18,7 @@
 }
 
 footer {
-  min-height: 10vh;
+  min-height: 15vh;
 }
 
 body {
@@ -131,11 +131,11 @@ p {
 
 .middle {
   margin-top: -45vh;
-  height: 250vh;
+  height: 200vh;
   width: 100vw;
   padding-top: 20vh;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
   background: linear-gradient(to bottom left, #B2DFEA, #A2D565);
   z-index: 1;
   position: relative;
