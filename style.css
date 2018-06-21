@@ -105,12 +105,14 @@ p {
 /* Background Style */
 
 .background_top {
-  background: linear-gradient(to top right, #B0DB7D, #B1B968);
+
   height: 95vh;
   width: 100vw;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
   z-index: -200;
+  background-image: url("images/placeholder.jpg");
+  background-size: cover;
 }
 
 .background_middle_1 {
@@ -127,8 +129,8 @@ p {
   background-color: #777777;
   height: 80vh;
   width: 100vw;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
   z-index: -225;
   margin-top: -.1em;
 }
@@ -164,3 +166,50 @@ p {
 .middle {
 
 }
+
+/* Products */
+
+.products_content img{
+  height: auto;
+
+  padding: 5%;
+  position: relative;
+  margin-left: calc(50%-4em)
+}
+
+@media only screen and (max-width: 600px){
+  .products_content img {
+    width: 70vw;
+    }
+
+    .products_container {
+      height: 100vh;
+      width: 100vw;
+    }
+
+    .products_content {
+      outline: 3px solid #FFF;
+      outline-offset: -1.5em;
+    }
+
+    h1 {
+      font-size: 2em;
+    }
+  }
+
+
+@media only screen and (max-width: 1500px){
+    .products_content img {
+      width: 40vw;
+      }
+
+      .products_container {
+        width: 45vw;
+        height: 90vh;
+      }
+
+      .products_content {
+        outline: 2px solid #FFF;
+        outline-offset: -3em;
+      }
+    }
