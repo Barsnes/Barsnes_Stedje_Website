@@ -123,8 +123,8 @@ p {
 .background_top {
   height: 95vh;
   width: 100vw;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   z-index: 2;
   background: #232323;
   background-image: url("images/placeholder.jpg");
