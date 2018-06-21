@@ -124,6 +124,7 @@ p {
   margin-top: -45vh;
   height: 250vh;
   width: 100vw;
+  padding-top: 50vh;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
   background: linear-gradient(to bottom left, #B2DFEA, #A2D565);
@@ -131,9 +132,15 @@ p {
   position: relative;
 }
 
-.about{
+.about {
   right: -50%;
   }
+.about img{
+  width: 10vw;
+  height: auto;
+}
+
+
 
 .footer {
   width: 100vw;
