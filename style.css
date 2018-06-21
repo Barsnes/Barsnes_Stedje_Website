@@ -161,7 +161,7 @@ p {
 }
 
 .about img{
-  width: 10vw;
+  width: 13vw;
   height: auto;
   right: 0;
   position: absolute;
@@ -178,10 +178,4 @@ p {
   margin-top: 10vh;
   right: 0;
   overflow: hidden;
-}
-
-.about_images h4 {
-  margin: auto;
-  position: absolute;
-  padding: 50vw;
 }
