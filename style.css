@@ -156,13 +156,13 @@ p {
   position: absolute;
   right: 0;
   margin-right: 10vw;
-  margin-top: 5vw;
 }
 
 .about h1 {
   display: inline-block;
   position: relative;
   right: 0;
+  margin-top: 5vw;
 }
 
 .about span {
@@ -172,12 +172,12 @@ p {
 
 .about_images img{
   position: relative;
-  width: 15em;
+  width: 15vw;
 }
 
 .about_images {
   position: absolute;
-  margin-top: 50vh;
+  margin-top: 60vh;
   margin-right: 10vw;
   right: 0;
   padding: .3vw;
@@ -219,17 +219,17 @@ p {
 .products {
   display: block;
   position: absolute;
-  margin-top: 5vw;
 }
 
 .products h1 {
   display: inline-block;
   position: relative;
+  margin-top: 5vw;
 }
 
 .products_images {
   position: absolute;
-  margin-top: 50vh;
+  margin-top: 60vh;
   margin-left: 10vw;
   padding: .3vw;
   display: block;
@@ -260,10 +260,9 @@ p {
 .video h2 {
   display: inline-block;
   position: absolute;
-  top: 1em;
   padding-left: .5em;
   font-size: 2em;
-  margin: auto;
+  margin-top: -1.5vh;
 }
 
 .development p,
@@ -275,6 +274,6 @@ p {
   font-size: 1em;
   padding-left: 1em;
   padding-right: 1em;
-  top: 5em;
+  top: 4em;
   text-shadow: none;
 }
