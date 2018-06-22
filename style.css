@@ -179,7 +179,6 @@ p {
   margin-top: 40vh;
   margin-right: 10vw;
   right: 0;
-  padding: .3vw;
   display: block;
   box-shadow: 0 0 30px #00000030;
 }
@@ -242,7 +241,6 @@ p {
   position: absolute;
   margin-top: 60vh;
   margin-left: 10vw;
-  padding: .3vw;
   display: block;
   box-shadow: 0 0 30px #00000030;
 }
