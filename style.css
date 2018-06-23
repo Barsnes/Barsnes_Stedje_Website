@@ -174,10 +174,11 @@ p {
   position: absolute;
   width: 70vw;
   margin: 20vw 10vw 0 10vw;
-  right: 0;
+  right: 5vw;
   display: flex;
   box-shadow: 0 0 30px #00000030;
   background: linear-gradient(to top right, #23232320, #23232305);
+  padding: .5em
 }
 
 .about_images h1 {
@@ -187,6 +188,7 @@ p {
   top: -2em;
   line-height: .8em;
   text-transform: uppercase;
+  text-shadow: 0 0 10px #00000060;
 }
 
 .about_images span {
@@ -196,11 +198,9 @@ p {
 }
 
 .about_images img{
-  position: relative;
+  position: absolute;
   width: 10em;
-  display: block;
-  padding: 1em;
-  margin: auto;
+  left: 0;
 }
 
 .tobias,
@@ -212,6 +212,7 @@ p {
   position: relative;
   width: 50%;
   height: 100%;
+  padding-left: 11em
 }
 
 .tobias h2,
@@ -333,52 +334,57 @@ p {
   height: 280vh;
 }
 
-  .about h1 {
-    font-size: 3.5em;
-  }
-
 .about_images {
-  margin-left: 10vw;
-  width: 80vw
+  width: 70vw;
+  margin: 30vw 10vw 0 10vw;
+  right: 5vw;
+  display: flex;
 }
 
-  .about_images img{
-    width: 15em;
-  }
+.about_images img{
+  position: absolute;
+  width: 7em;
+  left: 0;
+}
 
-  .tobias,
-  .endre,
-  .development,
-  .design,
-  .pictures,
-  .video  {
-    width: 80vw;
-    margin-right: 10vw
-  }
+.tobias,
+.endre,
+.development,
+.design,
+.pictures,
+.video  {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  padding-left: 8em
+}
 
-  .tobias h2,
-  .endre h2,
-  .development h2,
-  .design h2,
-  .pictures h2,
-  .video h2 {
-    display: inline-block;
-    position: absolute;
-    top: 1em;
-    padding-left: .5em;
-    font-size: 2em;
-    margin: auto;
-  }
+.tobias h2,
+.endre h2,
+.development h2,
+.design h2,
+.pictures h2,
+.video h2 {
+  display: inline-block;
+  position: relative;
+  font-size: 1.8em;
+  margin: auto;
+  padding: .4em;
+}
 
-  .products h1 {
-    margin-top: 80vw;
-  }
-
-  .products_images {
-    margin-top: 150vh;
-    margin-right: 10vw;
-    width: 80vw
-  }
+.tobias p,
+.endre p,
+.development p,
+.design p,
+.pictures p,
+.video p {
+  position: relative;
+  display: inline-block;
+  font-size: 1em;
+  padding: 0 10% 10% 1em;
+  text-shadow: none;
+  width: 80%;
+}
 
 }
 
@@ -408,11 +414,22 @@ p {
     margin-left: 10vw;
     text-shadow: 0 0 10px #00000060;
   }
+
+  .about_images {
+    width: 70vw;
+    margin: 40vw 10vw 0 10vw;
+    right: 5vw;
+    display: block;
+  }
 }
 
 @media (max-width: 500px) {
   p {
-    font-size: .6em;
+    font-size: 1em;
+  }
+
+  .background_top h1 {
+    font-size: 3em;
   }
 
   .top_p {
@@ -422,5 +439,40 @@ p {
 
   .header {
     font-size: .5em;
+  }
+
+  .about_images {
+    margin: 60vw 10vw 0 10vw;
+  }
+
+  .about_images h1 {
+    font-size: 2em
+  }
+
+  .tobias h2,
+  .endre h2,
+  .development h2,
+  .design h2,
+  .pictures h2,
+  .video h2 {
+    display: inline-block;
+    position: relative;
+    font-size: 1.4em;
+    margin: auto;
+    padding: .4em;
+  }
+
+  .tobias p,
+  .endre p,
+  .development p,
+  .design p,
+  .pictures p,
+  .video p {
+    position: relative;
+    display: inline-block;
+    font-size: .6em;
+    padding: 0 10% 10% 1em;
+    text-shadow: none;
+    width: 80%;
   }
 }
