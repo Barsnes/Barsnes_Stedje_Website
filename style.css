@@ -142,12 +142,12 @@ p {
 }
 
 .background_glass {
-  height: 75vh;
+  height: 95vh;
   width: 100vw;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   z-index: 3;
-  background: linear-gradient(to bottom, #00000000, #FFFFFF40);;
+  background: linear-gradient(to bottom, #00000000, #FFFFFF80);;
   background-size: cover;
   position: absolute;
 }
