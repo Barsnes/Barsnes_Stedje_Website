@@ -84,7 +84,7 @@ nav a:focus{
 
 /* Background Top */
 
-h1 {
+.background_top h1 {
   padding-left: 10vw;
   padding-top: 20vh;
   font-size: 6em;
@@ -95,7 +95,7 @@ h1 {
   text-shadow: 0 0 10px #00000060;
 }
 
-h1 span {
+.background_top h1 span {
   display: block;
 }
 
@@ -170,36 +170,37 @@ p {
 }
 
 /* About */
-.about {
+.about_images {
+  position: absolute;
+  width: 70vw;
+  margin: 20vw 10vw 0 10vw;
+  right: 0;
+  display: flex;
+  box-shadow: 0 0 30px #00000030;
+  background: linear-gradient(to top right, #23232320, #23232305);
+}
+
+.about_images h1 {
   display: block;
   position: absolute;
   right: 0;
-  margin-right: 10vw;
+  top: -2em;
+  line-height: .8em;
+  text-transform: uppercase;
 }
 
-.about h1 {
-  display: inline-block;
-  position: relative;
-  right: 0;
-}
-
-.about span {
+.about_images span {
   position: absolute;
+  display: block;
   right: 0;
 }
 
 .about_images img{
   position: relative;
   width: 10em;
-}
-
-.about_images {
-  position: absolute;
-  margin-top: 40vh;
-  margin-right: 10vw;
-  right: 0;
   display: block;
-  box-shadow: 0 0 30px #00000030;
+  padding: 1em;
+  margin: auto;
 }
 
 .tobias,
@@ -209,11 +210,8 @@ p {
 .pictures,
 .video  {
   position: relative;
-  background-color: #23232330;
-  width: 30vw;
+  width: 50%;
   height: 100%;
-  padding: 1.5em;
-  padding-left: 2em;
 }
 
 .tobias h2,
@@ -223,11 +221,10 @@ p {
 .pictures h2,
 .video h2 {
   display: inline-block;
-  position: absolute;
-  top: 1em;
-  padding-left: .5em;
-  font-size: 2em;
+  position: relative;
+  font-size: 1.8em;
   margin: auto;
+  padding: .4em;
 }
 
 .tobias p,
@@ -236,13 +233,12 @@ p {
 .design p,
 .pictures p,
 .video p {
-  position: absolute;
+  position: relative;
   display: inline-block;
   font-size: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
-  top: 5em;
+  padding: 0 10% 10% 1em;
   text-shadow: none;
+  width: 80%;
 }
 
 .products {
@@ -333,12 +329,21 @@ p {
 
 @media (max-width: 1200px) {
 
+.middle {
+  height: 280vh;
+}
+
   .about h1 {
     font-size: 3.5em;
   }
 
+.about_images {
+  margin-left: 10vw;
+  width: 80vw
+}
+
   .about_images img{
-    width: 20em;
+    width: 15em;
   }
 
   .tobias,
@@ -348,6 +353,7 @@ p {
   .pictures,
   .video  {
     width: 80vw;
+    margin-right: 10vw
   }
 
   .tobias h2,
@@ -362,6 +368,16 @@ p {
     padding-left: .5em;
     font-size: 2em;
     margin: auto;
+  }
+
+  .products h1 {
+    margin-top: 80vw;
+  }
+
+  .products_images {
+    margin-top: 150vh;
+    margin-right: 10vw;
+    width: 80vw
   }
 
 }
