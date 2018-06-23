@@ -147,7 +147,7 @@ p {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
   z-index: 3;
-  background: linear-gradient(to bottom, #00000000, #FFFFFF80);;
+  background: linear-gradient(to bottom, #00000000, #FFFFFF40);;
   background-size: cover;
   position: absolute;
 }
