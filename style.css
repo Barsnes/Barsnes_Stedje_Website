@@ -15,6 +15,7 @@
   padding: 0;
   color: #FFF;
   font-family: 'PT Sans', sans-serif;
+  z-index: 10
 }
 
 footer {
@@ -30,12 +31,14 @@ html {
 }
 
 /* Header */
+
 .header {
   position: absolute;
   padding-left: 10vw;
   padding-right: 10vw;
-  margin-top: 5vh;
+  padding-top: 5vh;
   max-height: 5vh;
+  text-shadow: 0 0 10px #00000060;
 }
 
 nav ul {
@@ -76,7 +79,7 @@ nav a:focus{
 .top_quote {
   font-size: 8em;
   margin-left: 10vw;
-  text-shadow: 0 0 10px #000000;
+  text-shadow: 0 0 10px #00000060;
 }
 
 /* Background Top */
@@ -89,21 +92,24 @@ h1 {
   line-height: .8em;
   margin: 0;
   font-weight: 700;
-  text-shadow: 0 0 10px #000000;
+  text-shadow: 0 0 10px #00000060;
 }
 
 h1 span {
   display: block;
-  text-shadow: 0 0 10px #000000;
 }
 
 p {
   position: relative;
-  font-size: 2em;
+  font-size: 1.7em;
   display: block;
   z-index: 100;
   top: 0;
-  text-shadow: 0 0 10px #000000;
+  text-shadow: 0 0 10px #00000060;
+}
+
+.top_p p {
+  margin-left: 2em;
 }
 
 /* Footer */
@@ -120,13 +126,24 @@ p {
 .background_top {
   height: 95vh;
   width: 100vw;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   z-index: 2;
   background: #232323;
-  background-image: url("images/placeholder.jpg");
+  background-image: url("https://source.unsplash.com/2000x1500/?nature,mountains");
   background-size: cover;
   position: relative;
+}
+
+.background_glass {
+  height: 75vh;
+  width: 100vw;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
+  z-index: 3;
+  background: #FFFFFF40;
+  background-size: cover;
+  position: absolute;
 }
 
 .middle {
@@ -249,6 +266,12 @@ p {
   position: relative;
   width: 15vw;
   height: auto;
+  padding-top: 1em;
+}
+
+.middle h1,
+.design_middle h1 {
+  font-size: 4em;
 }
 
 /* Designs */
@@ -261,17 +284,9 @@ p {
   clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
   z-index: 2;
   background: #232323;
-  background-image: url("images/top_design.jpg");
+  background-image: url("https://source.unsplash.com/2000x1500/?design,dark");
   background-size: cover;
   position: relative;
-}
-
-.design_header {
-  position: absolute;
-  padding-left: 10vw;
-  padding-right: 10vw;
-  margin-top: 5vh;
-  max-height: 5vh;
 }
 
 .design_middle {
@@ -285,29 +300,32 @@ p {
   z-index: 1;
 }
 
+.design_title {
+  position: relative;
+  margin-top: -37vh;
+  font-size: .8em;
+  padding-bottom: 4em;
+  position: absolute;
+  right: 0;
+}
+
 .our_work {
   margin: 0;
   position: absolute;
-  top: 130vh;
+  top: 135vh;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .work_background {
   background-color: #bfbfbf20;
-  width: 75vw;
+  width: 74vw;
+  height: auto;
 }
 
-.work_1, .work_2, .work_3 {
+.work_background img {
   width: 20vw;
   height: auto;
-  padding: 3em 1em 1em 3em;
-  display: inline-block;
-}
-
-.work_4, .work_5, .work_6 {
-  width: 20vw;
-  height: auto;
-  padding: 1em 1em 3em 3em;
+  padding: 2em;
   display: inline-block;
 }
