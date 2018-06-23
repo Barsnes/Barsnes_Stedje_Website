@@ -15,7 +15,6 @@
   padding: 0;
   color: #FFF;
   font-family: 'PT Sans', sans-serif;
-  z-index: 10
 }
 
 footer {
@@ -39,6 +38,7 @@ html {
   padding-top: 5vh;
   max-height: 5vh;
   text-shadow: 0 0 10px #00000060;
+  z-index: 100;
 }
 
 nav ul {
@@ -110,6 +110,12 @@ p {
 
 .top_p p {
   margin-left: 2em;
+}
+
+.background_top h1,
+.background_top p, {
+  position: relative;
+  z-index: 10;
 }
 
 /* Footer */
