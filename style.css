@@ -286,8 +286,8 @@ p {
 .design_top {
   height: 95vh;
   width: 100vw;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   z-index: 2;
   background: #232323;
   background-image: url("https://source.unsplash.com/2000x1500/?design,dark");
@@ -299,16 +299,16 @@ p {
   margin-top: -45vh;
   height: 200vh;
   width: 100vw;
-  padding-top: 20vh;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
-  background: linear-gradient(to bottom right, #800000, #990099);
+  background: linear-gradient(to bottom right, #137b8f, #137a7f);
   z-index: 1;
+  position: relative;
 }
 
 .design_title {
   position: relative;
-  margin-top: -37vh;
+  margin-top: -35vh;
   font-size: .8em;
   padding-bottom: 4em;
   position: absolute;
@@ -318,7 +318,7 @@ p {
 .our_work {
   margin: 0;
   position: absolute;
-  top: 135vh;
+  top: 80vh;
   left: 50%;
   transform: translate(-50%, -50%);
 }
