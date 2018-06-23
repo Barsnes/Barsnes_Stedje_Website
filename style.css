@@ -33,8 +33,8 @@ html {
 
 .header {
   position: absolute;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
   padding-top: 5vh;
   max-height: 5vh;
   text-shadow: 0 0 10px #00000060;
@@ -69,7 +69,7 @@ nav a:focus{
 }
 
 .top_p {
-  margin-left: 15vw;
+  margin-left: 17vw;
   margin-right: 10vw;
   margin-top: -25em;
   font-size: .5em;
@@ -106,10 +106,6 @@ p {
   z-index: 100;
   top: 0;
   text-shadow: 0 0 10px #00000060;
-}
-
-.top_p p {
-  margin-left: 2em;
 }
 
 .background_top h1,
@@ -281,8 +277,7 @@ p {
 }
 
 /* Designs */
-
-
+xs
 .design_top {
   height: 95vh;
   width: 100vw;
@@ -334,4 +329,82 @@ p {
   height: auto;
   padding: 2em;
   display: inline-block;
+}
+
+@media (max-width: 1200px) {
+
+  .about h1 {
+    font-size: 3.5em;
+  }
+
+  .about_images img{
+    width: 20em;
+  }
+
+  .tobias,
+  .endre,
+  .development,
+  .design,
+  .pictures,
+  .video  {
+    width: 80vw;
+  }
+
+  .tobias h2,
+  .endre h2,
+  .development h2,
+  .design h2,
+  .pictures h2,
+  .video h2 {
+    display: inline-block;
+    position: absolute;
+    top: 1em;
+    padding-left: .5em;
+    font-size: 2em;
+    margin: auto;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  p {
+    font-size: 1.2em;
+    display: block;
+    z-index: 100;
+    top: 0;
+    text-shadow: 0 0 10px #00000060;
+  }
+
+  .top_p p {
+    margin-top: 15vh
+  }
+
+  .top_p {
+      padding-right: 20vw;
+  }
+
+  .top_quote {
+    font-size: 4em;
+    margin-left: 10vw;
+    text-shadow: 0 0 10px #00000060;
+  }
+}
+
+@media (max-width: 500px) {
+  p {
+    font-size: .6em;
+  }
+
+  .top_p {
+      padding-right: 0vw;
+      padding-left: 8vw
+  }
+
+  .header {
+    font-size: .5em;
+  }
 }
