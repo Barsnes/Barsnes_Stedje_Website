@@ -204,11 +204,7 @@ p {
 }
 
 .tobias,
-.endre,
-.development,
-.design,
-.pictures,
-.video  {
+.endre {
   position: relative;
   width: 50%;
   height: 100%;
@@ -216,11 +212,7 @@ p {
 }
 
 .tobias h2,
-.endre h2,
-.development h2,
-.design h2,
-.pictures h2,
-.video h2 {
+.endre h2 {
   display: inline-block;
   position: relative;
   font-size: 1.8em;
@@ -228,12 +220,19 @@ p {
   padding: .4em;
 }
 
+.development h2,
+.design h2,
+.pictures h2,
+.video h2 {
+  display: block;
+  position: relative;
+  font-size: 1.8em;
+  margin: auto;
+  padding: .3em
+}
+
 .tobias p,
-.endre p,
-.development p,
-.design p,
-.pictures p,
-.video p {
+.endre p {
   position: relative;
   display: inline-block;
   font-size: 1em;
@@ -242,30 +241,44 @@ p {
   width: 80%;
 }
 
-.products {
-  display: block;
-  position: absolute;
-}
-
-.products h1 {
-  display: inline-block;
+.development p,
+.design p,
+.pictures p,
+.video p {
   position: relative;
-  margin-top: 10vw;
+  display: block;
+  font-size: 1em;
+  text-shadow: none;
+  width: 90%;
+  padding: .5em
 }
 
 .products_images {
-  position: absolute;
-  margin-top: 60vh;
-  margin-left: 10vw;
-  display: block;
+  position: relative;
+  width: 80vw;
+  margin: 50vw 10vw 0 10vw;
+  display: inline-flex;
   box-shadow: 0 0 30px #00000030;
+  background: linear-gradient(to top right, #23232320, #23232305);
+}
+
+.products_images h1 {
+  display: block;
+  position: absolute;
+  top: -2em;
+  line-height: .8em;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px #00000060;
+}
+
+.products_images span {
+  position: relative;
+  display: flex;
 }
 
 .products_images img{
-  position: relative;
-  width: 15vw;
-  height: auto;
-  padding-top: 1em;
+  display: block;
+  width: 100%;
 }
 
 .middle h1,
@@ -348,11 +361,7 @@ p {
 }
 
 .tobias,
-.endre,
-.development,
-.design,
-.pictures,
-.video  {
+.endre {
   position: relative;
   width: 50%;
   height: 100%;
@@ -373,17 +382,19 @@ p {
 }
 
 .tobias p,
-.endre p,
+.endre p, {
+  font-size: 1em;
+}
+
 .development p,
 .design p,
 .pictures p,
 .video p {
-  position: relative;
-  display: inline-block;
-  font-size: 1em;
-  padding: 0 10% 10% 1em;
-  text-shadow: none;
-  width: 80%;
+  padding: .5em
+}
+
+.products_images {
+  margin: 45em 10vw 0 10vw;
 }
 
 }
@@ -417,8 +428,25 @@ p {
 
   .about_images {
     width: 70vw;
-    margin: 40vw 10vw 0 10vw;
+    margin: 20em 10vw 0 10vw;
     right: 5vw;
+    display: block;
+  }
+
+  .products_images {
+    margin: 55em 10vw 0 10vw;
+    display: block;
+  }
+
+  .products_images img {
+    width: 100%;
+    display: block;
+  }
+
+  .development ,
+  .design ,
+  .pictures ,
+  .video  {
     display: block;
   }
 }
@@ -445,7 +473,8 @@ p {
     margin: 60vw 10vw 0 10vw;
   }
 
-  .about_images h1 {
+  .about_images h1,
+  .products_images h1 {
     font-size: 2em
   }
 
@@ -464,16 +493,8 @@ p {
 
   .tobias p,
   .endre p,
-  .development p,
-  .design p,
-  .pictures p,
-  .video p {
-    position: relative;
-    display: inline-block;
-    font-size: .6em;
-    padding: 0 10% 10% 1em;
-    text-shadow: none;
-    width: 80%;
+ {
+    padding: 0 0 0 1em;
   }
 
   nav a {
@@ -483,5 +504,11 @@ p {
   .top_p {
     margin-top: -15em;
     font-size: .8em;
+  }
+
+  .tobias,
+  .endre, {
+    width: 60%;
+    padding-left: 0
   }
 }
