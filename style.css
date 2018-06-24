@@ -257,7 +257,7 @@ p {
   position: relative;
   width: 80vw;
   margin: 50vw 10vw 0 10vw;
-  display: inline-flex;
+  display: flex;
   box-shadow: 0 0 30px #00000030;
   background: linear-gradient(to top right, #23232320, #23232305);
 }
@@ -452,6 +452,11 @@ p {
 }
 
 @media (max-width: 500px) {
+
+  .middle {
+    height: 120em;
+  }
+
   p {
     font-size: 1em;
   }
@@ -494,7 +499,7 @@ p {
   .tobias p,
   .endre p,
  {
-    padding: 0 0 0 1em;
+    padding: 0 1em 0 0;
   }
 
   nav a {
