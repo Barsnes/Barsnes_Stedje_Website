@@ -484,7 +484,14 @@ p {
   }
 
   .tobias h2,
-  .endre h2,
+  .endre h2 {
+    display: inline-block;
+    position: relative;
+    font-size: 1.4em;
+    margin: auto;
+    padding: .4em .4em .4em 0;
+  }
+
   .development h2,
   .design h2,
   .pictures h2,
@@ -493,13 +500,21 @@ p {
     position: relative;
     font-size: 1.4em;
     margin: auto;
+    padding: .2em;
+  }
+
+  .development p,
+  .design p,
+  .pictures p,
+  .video p {
     padding: .4em;
   }
 
   .tobias p,
-  .endre p,
- {
-    padding: 0 1em 0 0;
+  .endre p{
+   display: flex;
+   padding: 0;
+   width: 80%;
   }
 
   nav a {
@@ -513,7 +528,7 @@ p {
 
   .tobias,
   .endre, {
-    width: 60%;
+    width: 100%;
     padding-left: 0
   }
 }
