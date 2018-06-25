@@ -124,6 +124,12 @@ p {
   margin-left: 10vw;
   margin-right: 10vw;
   margin-top: 90vh;
+  font-weight: bold;
+}
+
+.footer span {
+  display: block;
+  font-weight: 200;
 }
 
 /* Background Style */
@@ -501,6 +507,10 @@ p {
     height: 120em;
   }
 
+  .footer p {
+    font-size: .8em
+  }
+
   p {
     font-size: 1em;
   }
@@ -593,5 +603,9 @@ p {
   .design_mobile {
     position: absolute;
     right: 1000vw;
+  }
+
+  .products_design {
+    margin-top: 30em
   }
 }
