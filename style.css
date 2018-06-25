@@ -331,6 +331,7 @@ p {
 
 .products_design {
   position: relative;
+  height: auto;
   width: 80vw;
   margin: 35em 10vw 0 10vw;
   display: inline-block;
@@ -353,7 +354,7 @@ p {
 
 .products_design img{
   display: block;
-  width: 101%;
+  width: 100%;
   padding: 0;
   margin: 0;
 }
@@ -361,11 +362,14 @@ p {
 .project_1, .project_2, .project_3, .project_4, .project_5, .project_6 {
   width: 33.33%;
   float: left;
-  display: inline-block;
   padding: 0;
   margin: 0;
 }
-
+/*
+.project_1 span, .project_2 span, .project_3 span, .project_4 span, .project_5 span , .project_6 span {
+  color: orange;
+}
+*/
 .products_design h2 {
   font-size: 1.8em;
   padding: .4em .4em 0 .2em;
@@ -373,7 +377,18 @@ p {
 
 .products_design p {
   padding: .4em .4em 2em .4em;
-  font-size: 1em
+  font-size: 1em;
+}
+
+.products_design a {
+  display: block;
+  color: orange;
+  text-decoration: none;
+}
+
+.products_design a:hover {
+  text-shadow: 0 0 10px #000;
+  color: #FFFFFF
 }
 
 .products_design::after {
