@@ -4,6 +4,7 @@
 ::-webkit-scrollbar {
   scroll-behavior: smooth;
   width: 10px;
+  background: #FFFFFF00;
 }
 ::-webkit-scrollbar-thumb {
   background: #FFF;
