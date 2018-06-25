@@ -323,26 +323,59 @@ p {
   right: 0;
 }
 
-.our_work {
-  margin: 0;
-  position: absolute;
-  top: 80vh;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.work_background {
-  background-color: #bfbfbf20;
-  width: 74vw;
-  height: auto;
-}
-
-.work_background img {
-  width: 20vw;
-  height: auto;
-  padding: 2em;
+.products_design {
+  position: relative;
+  width: 80vw;
+  margin: 35em 10vw 0 10vw;
   display: inline-block;
+  box-shadow: 0 0 30px #00000030;
+  background: linear-gradient(to top right, #23232320, #23232305);
 }
+
+.products_design h1 {
+  display: block;
+  position: absolute;
+  top: -2em;
+  line-height: .8em;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px #00000060;
+}
+
+.products_design span {
+  display: block;
+}
+
+.products_design img{
+  display: block;
+  width: 101%;
+  padding: 0;
+  margin: 0;
+}
+
+.project_1, .project_2, .project_3, .project_4, .project_5, .project_6 {
+  width: 33.33%;
+  float: left;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.products_design h2 {
+  font-size: 1.8em;
+  padding: .4em .4em 0 .2em;
+}
+
+.products_design p {
+  padding: .4em .4em 2em .4em;
+  font-size: 1em
+}
+
+.products_design::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 
 @media (max-width: 1200px) {
 
@@ -452,9 +485,17 @@ p {
   .video  {
     display: block;
   }
+
+  .project_1, .project_2, .project_3, .project_4, .project_5, .project_6 {
+    width: 50%;
+  }
 }
 
 @media (max-width: 500px) {
+
+  .design_middle {
+    height: 130em;
+  }
 
   .middle {
     height: 120em;
@@ -483,7 +524,8 @@ p {
   }
 
   .about_images h1,
-  .products_images h1 {
+  .products_images h1,
+  .products_design h1 {
     font-size: 2em
   }
 
@@ -499,7 +541,11 @@ p {
   .development h2,
   .design h2,
   .pictures h2,
-  .video h2 {
+  .video h2,
+  .project_1 h2,
+  .project_2 h2,
+  .project_3 h2,
+  .project_4 h2 {
     display: inline-block;
     position: relative;
     font-size: 1.4em;
@@ -510,7 +556,11 @@ p {
   .development p,
   .design p,
   .pictures p,
-  .video p {
+  .video p,
+  .project_1 p,
+  .project_2 p,
+  .project_3 p,
+  .project_4 p {
     padding: .4em;
   }
 
@@ -534,5 +584,14 @@ p {
   .endre, {
     width: 100%;
     padding-left: 0
+  }
+
+  .project_1, .project_2, .project_3, .project_4, .project_5, .project_6 {
+    width: 100%;
+  }
+
+  .design_mobile {
+    position: absolute;
+    right: 1000vw;
   }
 }
