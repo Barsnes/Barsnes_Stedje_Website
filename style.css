@@ -16,6 +16,7 @@
   padding: 0;
   color: #FFF;
   font-family: 'PT Sans', sans-serif;
+  transition: ease-in-out 200ms
 }
 
 footer {
@@ -400,83 +401,98 @@ p {
 }
 
 .container {
+  position: relative;
+  margin-top: 10em;
   margin-left: 10vw;
   background-color: #00000010;
-  width: 30vw;
-  margin-top: 20vh;
+  width: 35vw;
   background: linear-gradient(to top right, #23232320, #23232305);
+  display: inline-block;
+  box-shadow: 0 0 30px #00000030;
 }
+
+.form__small {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
+
 .container h1 {
   text-transform: uppercase;
   text-shadow: 0 0 10px #00000060;
   text-align: center;
-  padding-top: 5vh;
+  padding-top: .5em;
+  margin: auto;
 }
 
-
 input {
-    width: 10vw;
-    padding: .5em;
-    margin-bottom: 5vh;
-    margin-left: 2.5vw;
-    margin-right: 5vw;
-    margin-top: -10em;
-    background-color: #00000025;
-    color: #FFF;
-    box-sizing: border-box;
-    border: none;
-    border: 2px solid #00000025;
+  width: 80%;
+  padding: .5em;
+  background-color: #00000025;
+  color: #FFF;
+  box-sizing: border-box;
+  margin: 1.5em auto;
+  border: 2px solid #00000025;
+  display: block;
 }
 
 textarea {
-    width: 25vw;
-    margin-left: 2.5vw;
-    height: 10vh;
-    background-color: #00000025;
-    color: #FFF;
-    box-sizing: border-box;
-    border: 2px solid #00000025;
-    resize: none;
+  width: 80%;
+  height: 15em;
+  margin: auto;
+  background-color: #00000025;
+  color: #FFF;
+  box-sizing: border-box;
+  border: 2px solid #00000025;
+  resize: none;
+  display: block;
+  font-family: 'PT Sans', sans-serif;
+  padding: .5em;
 }
 
 
 input::placeholder {
-    color: #FFF;
-    opacity: .75;
+  color: #FFF;
+  opacity: .75;
 }
 
 textarea::placeholder {
-    color: #FFF;
-    opacity: .75;
+  color: #FFF;
+  opacity: .75;
 }
 
 input:focus {
-    outline: none;
+  outline: none;
 }
 
 textarea:focus {
-    outline: none;
+  outline: none;
+}
+
+.button {
+  width: 100%;
+  margin: auto;
 }
 
 .button_dark {
-    display: block;
-    font-size: 1.3rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #00000025;
-    padding: .5em 1em;
-    color: #FFF;
-    margin-left: 40%;
-    margin-bottom: 1em;
-    cursor: pointer;
+  display: block;
+  margin: 1em auto;
+  width: 7em;
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 4px solid #FFF;
+  padding: .5em 1em;
+  color: #FFF;
+  cursor: pointer;
+  background: #ffffff00;
 }
 
 .button_dark:hover,
 .button_dark:focus {
-    background: #FFF;
-    color: #000;
+  background: #FFF;
+  color: #000;
 }
 
 @media (max-width: 1200px) {
