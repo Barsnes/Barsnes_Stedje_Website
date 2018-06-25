@@ -404,6 +404,7 @@ p {
   background-color: #00000010;
   width: 30vw;
   margin-top: 20vh;
+  background: linear-gradient(to top right, #23232320, #23232305);
 }
 .container h1 {
   text-transform: uppercase;
@@ -424,7 +425,7 @@ input {
     color: #FFF;
     box-sizing: border-box;
     border: none;
-    border-bottom: 2px solid #00000025;
+    border: 2px solid #00000025;
 }
 
 textarea {
@@ -458,11 +459,24 @@ textarea:focus {
 }
 
 .button_dark {
-  color: #000000;
-  margin-left: 14vw;
-  padding: .4em;
-  margin-bottom: 1em;
-  margin-top: 1em;
+    display: block;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #00000025;
+    padding: .5em 1em;
+    color: #FFF;
+    margin-left: 40%;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.button_dark:hover,
+.button_dark:focus {
+    background: #FFF;
+    color: #000;
 }
 
 @media (max-width: 1200px) {
