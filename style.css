@@ -651,11 +651,6 @@ textarea:focus {
     display: block;
   }
 
-  .captcha {
-  	margin: auto;
-  	padding: 1em;
-  	width: 40%;
-  }
 }
 
 @media (max-width: 500px) {
