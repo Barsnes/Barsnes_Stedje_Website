@@ -135,6 +135,16 @@ p {
 
 /* Background Style */
 
+.svg_logo {
+  width: 50vw;
+  fill: #FFFFFF50;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  -webkit-filter: drop-shadow( 0 0 50px #00000050 );
+  filter: drop-shadow( 0 0 50px #00000050 );
+}
+
 .background_top {
   height: 95vh;
   width: 100vw;
@@ -523,7 +533,6 @@ textarea:focus {
   display: block;
   margin: auto;
 }
-
 
 @media (max-width: 1200px) {
 
