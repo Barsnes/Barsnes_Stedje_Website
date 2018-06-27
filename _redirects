@@ -1,2 +1,2 @@
 # Redirect default Netlify subdomain to primary domain
-https://barsnes-stedje.netlify.com/* https://findingfutures.eu/:splat 301!
+https://findingfutures.netlify.com/* https://findingfutures.eu/:splat 301!
