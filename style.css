@@ -451,7 +451,7 @@ input {
   color: #FFF;
   box-sizing: border-box;
   margin: 1.5em auto;
-  border: 2px solid #00000025;
+  border: 1px solid #FFF;
   display: block;
 }
 
@@ -462,7 +462,7 @@ textarea {
   background-color: #00000025;
   color: #FFF;
   box-sizing: border-box;
-  border: 2px solid #00000025;
+  border: 1px solid #FFF;
   resize: none;
   display: block;
   font-family: 'PT Sans', sans-serif;
