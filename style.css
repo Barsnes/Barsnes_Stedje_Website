@@ -170,7 +170,7 @@ p {
 
 .middle {
   margin-top: -45vh;
-  height: 250vh;
+  height: auto;
   width: 100vw;
   padding-top: 20vh;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
@@ -426,6 +426,7 @@ p {
   background: linear-gradient(to top right, #23232320, #23232305);
   display: inline-block;
   box-shadow: 0 0 30px #00000030;
+  margin-bottom: 15em
 }
 
 .form__small {
@@ -535,10 +536,6 @@ textarea:focus {
 }
 
 @media (max-width: 1200px) {
-
-.middle {
-  height: 280vh;
-}
 
 .about_images {
   width: 70vw;
@@ -666,10 +663,6 @@ textarea:focus {
 
   .design_middle {
     height: 150em;
-  }
-
-  .middle {
-    height: 170em;
   }
 
   .footer p {
