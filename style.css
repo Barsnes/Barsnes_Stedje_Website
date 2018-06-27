@@ -522,10 +522,12 @@ textarea:focus {
 
 .text__finding_futures {
   position: absolute;
-  margin: auto;
+  margin: 8em auto;
   display: inline-block;
   width: 50%;
   overflow-x: hidden;
+  -webkit-filter: drop-shadow( 0 0 100px #00000070 );
+  filter: drop-shadow( 0 0 100px #00000070 );
 }
 
 .text__finding_futures img {
