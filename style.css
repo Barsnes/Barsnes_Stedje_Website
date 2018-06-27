@@ -516,7 +516,7 @@ textarea:focus {
 .captcha {
 	margin: auto;
 	padding: 1em;
-	width: fit-content;
+	width: 70%;
 }
 
 .text__finding_futures {
