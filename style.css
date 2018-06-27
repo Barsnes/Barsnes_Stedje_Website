@@ -191,10 +191,9 @@ p {
 
 /* About */
 .about_images {
-  position: absolute;
-  width: 70vw;
-  margin: 20vw 10vw 0 10vw;
-  right: 5vw;
+  position: relative;
+  width: 60vw;
+  margin: 20vw 20vw 0 20vw;
   display: flex;
   box-shadow: 0 0 30px #00000030;
   background: linear-gradient(to top right, #23232320, #23232305);
@@ -276,7 +275,7 @@ p {
 .products_images {
   position: relative;
   width: 80vw;
-  margin: 50vw 10vw 0 10vw;
+  margin: 10vw 10vw 0 10vw;
   display: flex;
   box-shadow: 0 0 30px #00000030;
   background: linear-gradient(to top right, #23232320, #23232305);
@@ -541,9 +540,7 @@ textarea:focus {
 
 .about_images {
   width: 70vw;
-  margin: 30vw 10vw 0 10vw;
-  right: 5vw;
-  display: flex;
+  margin: 30vw 15vw 0 15vw;
 }
 
 .about_images img{
@@ -577,7 +574,7 @@ textarea:focus {
 }
 
 .products_images {
-  margin: 45em 10vw 0 10vw;
+  margin: 12em 10vw 0 10vw;
 }
 
 .container h1 {
@@ -588,7 +585,7 @@ textarea:focus {
 
 @media (max-width: 1050px) {
   .products_images {
-    margin: 70em 10vw 0 10vw;
+    margin: 10em 10vw 0 10vw;
     display: block;
   }
 
@@ -653,127 +650,125 @@ textarea:focus {
   }
 
   .about_images {
-    width: 70vw;
-    margin: 20em 10vw 0 10vw;
-    right: 5vw;
     display: block;
+    margin-top: 20em
   }
 
 }
 
 @media (max-width: 500px) {
 
-  .design_middle {
-    height: 150em;
-  }
-
-  .footer p {
-    font-size: .8em
-  }
-
-  p {
-    font-size: 1em;
-  }
-
-  .background_top h1,
-  .design_top h1 {
-    font-size: 3em;
-  }
-
-.container h1 {
-  font-size: 2em;
+.design_middle {
+  height: 150em;
 }
 
-  .top_p {
-      padding-right: 0vw;
-      padding-left: 8vw
-  }
+.footer p {
+  font-size: .8em
+}
 
-  .header {
-    font-size: .5em;
-  }
+p {
+  font-size: 1em;
+}
 
-  .about_images {
-    margin: 60vw 10vw 0 10vw;
-  }
+.background_top h1,
+.design_top h1 {
+  font-size: 3em;
+}
 
-  .about_images h1,
-  .products_images h1,
-  .products_design h1 {
-    font-size: 2em
-  }
+.container h1 {
+font-size: 2em;
+}
 
-  .tobias h2,
-  .endre h2 {
-    display: inline-block;
-    position: relative;
-    font-size: 1.4em;
-    margin: auto;
-    padding: .4em .4em .4em 0;
-  }
+.top_p {
+  padding-right: 0vw;
+  padding-left: 8vw
+}
 
-  .development h2,
-  .design h2,
-  .pictures h2,
-  .video h2,
-  .project_1 h2,
-  .project_2 h2,
-  .project_3 h2,
-  .project_4 h2 {
-    display: inline-block;
-    position: relative;
-    font-size: 1.4em;
-    margin: auto;
-    padding: .2em;
-  }
+.header {
+  font-size: .5em;
+}
 
-  .development p,
-  .design p,
-  .pictures p,
-  .video p,
-  .project_1 p,
-  .project_2 p,
-  .project_3 p,
-  .project_4 p {
-    padding: .4em;
-  }
+.about_images {
+  margin-top: 12em
+}
 
-  .tobias p,
-  .endre p{
-   display: flex;
-   padding: 0;
-   width: 80%;
-  }
+.about_images h1,
+.products_images h1,
+.products_design h1 {
+  font-size: 2em
+}
 
-  nav a {
-  	font-size: .6rem;
-  }
+.tobias h2,
+.endre h2 {
+  display: inline-block;
+  position: relative;
+  font-size: 1.4em;
+  margin: auto;
+  padding: .4em .4em .4em 0;
+}
 
-  .top_p {
-    margin-top: -15em;
-    font-size: .8em;
-  }
+.development h2,
+.design h2,
+.pictures h2,
+.video h2,
+.project_1 h2,
+.project_2 h2,
+.project_3 h2,
+.project_4 h2 {
+  display: inline-block;
+  position: relative;
+  font-size: 1.4em;
+  margin: auto;
+  padding: .2em;
+}
 
-  .tobias,
-  .endre, {
-    width: 100%;
-    padding-left: 0
-  }
+.development p,
+.design p,
+.pictures p,
+.video p,
+.project_1 p,
+.project_2 p,
+.project_3 p,
+.project_4 p {
+  padding: .4em;
+}
 
-  .project_1, .project_2, .project_3, .project_4, .project_5, .project_6 {
-    width: 100%;
-  }
+.tobias p,
+.endre p{
+ display: flex;
+ padding: 0;
+ width: 80%;
+}
 
-  .design_mobile {
-    position: absolute;
-    right: 1000vw;
-  }
+nav a {
+	font-size: .6rem;
+}
 
-  .products_design {
-    margin-top: 30em
-  }
+.top_p {
+  margin-top: -15em;
+  font-size: .8em;
+}
 
-  .products_images {
-    margin-top: 60em
-  }
+.tobias,
+.endre, {
+  width: 100%;
+  padding-left: 0
+}
+
+.project_1, .project_2, .project_3, .project_4, .project_5, .project_6 {
+  width: 100%;
+}
+
+.design_mobile {
+  position: absolute;
+  right: 1000vw;
+}
+
+.products_design {
+  margin-top: 30em
+}
+
+.products_images {
+  margin-top: 10em
+}
 }
