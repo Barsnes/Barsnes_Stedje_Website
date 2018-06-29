@@ -97,7 +97,7 @@ nav a:focus{
   padding-top: 20vh;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
-  background: linear-gradient(to bottom left, #B2DFEA, #A2D565);
+  background: linear-gradient(to bottom right, #3126ab, #7911ee);;
   z-index: 1;
   position: relative;
 }
@@ -115,15 +115,22 @@ nav a:focus{
 .slideshow-container {
   position: relative;
   max-width: 60vw;
-  height: auto;
+  height: 70vh;
   margin: auto;
-  margin-top: 17em;
-  margin-bottom: 10em
+  margin-top: 16em;
+  margin-bottom: 10em;
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
+}
+
+.mySlides img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
 }
 
 /* Next & previous buttons */
@@ -134,11 +141,13 @@ nav a:focus{
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
+  box-shadow: 0 0 20px #00000070;
+  background: #FFF
 }
 
 /* Position the "next button" to the right */
@@ -150,6 +159,7 @@ nav a:focus{
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
+  color: white
 }
 
 /* Caption text */
@@ -172,28 +182,12 @@ nav a:focus{
   top: 0;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 1s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
 }
 
 @-webkit-keyframes fade {
@@ -206,10 +200,27 @@ nav a:focus{
   to {opacity: 1}
 }
 
+@media (max-width: 1500px) {
+.slideshow-container {
+  height: 40vh;
+}
+}
+
 @media (max-width: 1000px) {
-  .slideshow-container {
-    max-width: 80vw;
-  }
+
+.slideshow-container {
+  max-width: 90vw;
+  height: auto;
+}
+
+.mySlides img {
+  width: 100%;
+  height: auto;
+}
+
+.prev, .next {
+  padding: .5em;
+}
 }
 
 @media (max-width: 500px) {

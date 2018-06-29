@@ -311,7 +311,7 @@ p {
   width: 100vw;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
-  background: linear-gradient(to bottom right, #137b8f, #137a7f);
+  background: linear-gradient(to bottom right, #3126ab, #7911ee);
   z-index: 1;
   position: relative;
 }
