@@ -11,7 +11,9 @@
    </div>
   
 </body>
+
+<footer>
 Copyright (c) 2018 www.findingfutures.eu All Rights Reserved.
 contact@findingfutures.eu
-
+</footer>
 </html>
