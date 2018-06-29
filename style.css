@@ -65,8 +65,7 @@ nav a {
   max-height: 5vh;
 }
 
-nav a:hover,
-nav a:focus{
+nav a:hover,nav a:focus{
 	color: #DDD;
 }
 
@@ -86,8 +85,7 @@ nav a:focus{
 
 /* Background Top */
 
-.background_top h1,
-.design_top h1 {
+.background_top h1,.design_top h1 {
   padding-left: 10vw;
   padding-top: 20vh;
   font-size: 6em;
@@ -98,8 +96,7 @@ nav a:focus{
   text-shadow: 0 0 10px #00000060;
 }
 
-.background_top h1 span,
-.design_top h1 span {
+.background_top h1 span,.design_top h1 span {
   display: block;
 }
 
@@ -112,8 +109,7 @@ p {
   text-shadow: 0 0 10px #00000060;
 }
 
-.background_top h1,
-.background_top p, {
+.background_top h1,.background_top p, {
   position: relative;
   z-index: 10;
 }
@@ -222,16 +218,14 @@ p {
   left: 0;
 }
 
-.tobias,
-.endre {
+.tobias,.endre {
   position: relative;
   width: 50%;
   height: 100%;
   padding-left: 11em
 }
 
-.tobias h2,
-.endre h2 {
+.tobias h2,.endre h2 {
   display: inline-block;
   position: relative;
   font-size: 1.8em;
@@ -239,10 +233,7 @@ p {
   padding: .4em;
 }
 
-.development h2,
-.design h2,
-.pictures h2,
-.video h2 {
+.development h2,.design h2,.pictures h2,.video h2 {
   display: block;
   position: relative;
   font-size: 1.8em;
@@ -250,8 +241,7 @@ p {
   padding: .3em
 }
 
-.tobias p,
-.endre p {
+.tobias p,.endre p {
   position: relative;
   display: inline-block;
   font-size: 1em;
@@ -260,10 +250,7 @@ p {
   width: 80%;
 }
 
-.development p,
-.design p,
-.pictures p,
-.video p {
+.development p,.design p,.pictures p,.video p {
   position: relative;
   display: block;
   font-size: 1em;
@@ -300,8 +287,7 @@ p {
   width: 100%;
 }
 
-.middle h1,
-.design_middle h1 {
+.middle h1,.design_middle h1 {
   font-size: 4em;
 }
 
@@ -507,15 +493,14 @@ textarea:focus {
   background: #ffffff00;
 }
 
-.button_dark:hover,
-.button_dark:focus {
+.button_dark:hover,.button_dark:focus {
   background: #FFF;
   color: #000;
 }
 
 .captcha {
 	margin: auto;
-	padding: .4em;
+	padding: 0em;
 	width: fit-content;
 }
 
@@ -549,8 +534,7 @@ textarea:focus {
   left: 0;
 }
 
-.tobias,
-.endre {
+.tobias,.endre {
   position: relative;
   width: 50%;
   height: 100%;
@@ -670,8 +654,7 @@ p {
   font-size: 1em;
 }
 
-.background_top h1,
-.design_top h1 {
+.background_top h1,.design_top h1 {
   font-size: 3em;
 }
 
@@ -692,9 +675,7 @@ font-size: 2em;
   margin-top: 12em
 }
 
-.about_images h1,
-.products_images h1,
-.products_design h1 {
+.about_images h1,.products_images h1,.products_design h1 {
   font-size: 2em
 }
 
@@ -707,14 +688,7 @@ font-size: 2em;
   padding: .4em .4em .4em 0;
 }
 
-.development h2,
-.design h2,
-.pictures h2,
-.video h2,
-.project_1 h2,
-.project_2 h2,
-.project_3 h2,
-.project_4 h2 {
+.development h2,.design h2,.pictures h2,.video h2,.project_1 h2,.project_2 h2,.project_3 h2,.project_4 h2 {
   display: inline-block;
   position: relative;
   font-size: 1.4em;
@@ -722,19 +696,11 @@ font-size: 2em;
   padding: .2em;
 }
 
-.development p,
-.design p,
-.pictures p,
-.video p,
-.project_1 p,
-.project_2 p,
-.project_3 p,
-.project_4 p {
+.development p,.design p,.pictures p,.video p,.project_1 p,.project_2 p,.project_3 p,.project_4 p {
   padding: .4em;
 }
 
-.tobias p,
-.endre p{
+.tobias p,.endre p{
  display: flex;
  padding: 0;
  width: 80%;
@@ -749,8 +715,7 @@ nav a {
   font-size: .8em;
 }
 
-.tobias,
-.endre, {
+.tobias,.endre, {
   width: 100%;
   padding-left: 0
 }
