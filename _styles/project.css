@@ -14,7 +14,7 @@
 
 .design_middle {
   margin-top: -45vh;
-  height: 200vh;
+  height: auto;
   width: 100vw;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
@@ -36,7 +36,7 @@
   position: relative;
   height: auto;
   width: 80vw;
-  margin: 35em 10vw 0 10vw;
+  margin: 60vh 10vw 20em 10vw;
   display: inline-block;
   box-shadow: 0 0 30px #00000030;
   background: linear-gradient(to top right, #23232320, #23232305);
