@@ -285,6 +285,7 @@ p {
 .products_images img{
   display: block;
   width: 100%;
+  height: auto;
 }
 
 .middle h1,.design_middle h1 {
