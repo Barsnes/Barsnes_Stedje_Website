@@ -1,0 +1,106 @@
+/* About */
+.about_images {
+  position: relative;
+  width: 60vw;
+  margin: 20vw 20vw 0 20vw;
+  display: flex;
+  box-shadow: 0 0 30px #00000030;
+  background: linear-gradient(to top right, #23232320, #23232305);
+  padding: .5em
+}
+
+.about_images h1 {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: -2em;
+  line-height: .8em;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px #00000060;
+}
+
+.about_images span {
+  position: absolute;
+  display: block;
+  right: 0;
+}
+
+.about_images img{
+  position: absolute;
+  width: 10em;
+  left: 0;
+}
+
+.tobias,.endre {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  padding-left: 11em
+}
+
+.tobias h2,.endre h2 {
+  display: inline-block;
+  position: relative;
+  font-size: 1.8em;
+  margin: auto;
+  padding: .4em;
+}
+
+.development h2,.design h2,.pictures h2,.video h2 {
+  display: block;
+  position: relative;
+  font-size: 1.8em;
+  margin: auto;
+  padding: .3em
+}
+
+.tobias p,.endre p {
+  position: relative;
+  display: inline-block;
+  font-size: 1em;
+  padding: 0 10% 10% 1em;
+  text-shadow: none;
+  width: 80%;
+}
+
+.development p,.design p,.pictures p,.video p {
+  position: relative;
+  display: block;
+  font-size: 1em;
+  text-shadow: none;
+  width: 90%;
+  padding: .5em
+}
+
+.products_images {
+  position: relative;
+  width: 80vw;
+  margin: 10vw 10vw 0 10vw;
+  display: flex;
+  box-shadow: 0 0 30px #00000030;
+  background: linear-gradient(to top right, #23232320, #23232305);
+}
+
+.products_images h1 {
+  display: block;
+  position: absolute;
+  top: -2em;
+  line-height: .8em;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px #00000060;
+}
+
+.products_images span {
+  position: relative;
+  display: flex;
+}
+
+.products_images img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.middle h1,.design_middle h1 {
+  font-size: 4em;
+}

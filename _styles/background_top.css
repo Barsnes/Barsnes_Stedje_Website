@@ -1,0 +1,44 @@
+.top_p {
+  margin-left: 17vw;
+  margin-right: 10vw;
+  margin-top: -25em;
+  font-size: .5em;
+  padding-right: 40vw;
+}
+
+.top_quote {
+  font-size: 8em;
+  margin-left: 10vw;
+  text-shadow: 0 0 10px #00000060;
+}
+
+/* Background Top */
+
+.background_top h1,.design_top h1 {
+  padding-left: 10vw;
+  padding-top: 20vh;
+  font-size: 6em;
+  text-transform: uppercase;
+  line-height: .8em;
+  margin: 0;
+  font-weight: 700;
+  text-shadow: 0 0 10px #00000060;
+}
+
+.background_top h1 span,.design_top h1 span {
+  display: block;
+}
+
+p {
+  position: relative;
+  font-size: 1.7em;
+  display: block;
+  z-index: 100;
+  top: 0;
+  text-shadow: 0 0 10px #00000060;
+}
+
+.background_top h1,.background_top p, {
+  position: relative;
+  z-index: 10;
+}

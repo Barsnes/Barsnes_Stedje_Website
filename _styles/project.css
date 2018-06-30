@@ -1,0 +1,103 @@
+/* Designs */
+
+.design_top {
+  height: 95vh;
+  width: 100vw;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  z-index: 2;
+  background: #232323;
+  background-image: url("https://source.unsplash.com/2000x1500/?design,dark");
+  background-size: cover;
+  position: relative;
+}
+
+.design_middle {
+  margin-top: -45vh;
+  height: 200vh;
+  width: 100vw;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+  background: linear-gradient(to bottom right, #cc99ff, #9c1aff);
+  z-index: 1;
+  position: relative;
+}
+
+.design_title {
+  position: relative;
+  margin-top: -35vh;
+  font-size: .8em;
+  padding-bottom: 4em;
+  position: absolute;
+  right: 0;
+}
+
+.products_design {
+  position: relative;
+  height: auto;
+  width: 80vw;
+  margin: 35em 10vw 0 10vw;
+  display: inline-block;
+  box-shadow: 0 0 30px #00000030;
+  background: linear-gradient(to top right, #23232320, #23232305);
+}
+
+.products_design h1 {
+  display: block;
+  position: absolute;
+  top: -2em;
+  line-height: .8em;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px #00000060;
+}
+
+.products_design span {
+  display: block;
+}
+
+.products_design img{
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.project_1, .project_2, .project_3, .project_4, .project_5, .project_6 {
+  width: 33.33%;
+  float: left;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  display: block;
+
+}
+
+.products_design h2 {
+  font-size: 1.8em;
+  padding: .4em .4em 0 .2em;
+}
+
+.products_design p {
+  padding: .4em .4em 2em .4em;
+  font-size: 1em;
+  margin-bottom: 3em;
+}
+
+.products_design a {
+  display: block;
+  color: orange;
+  margin: auto;
+  position: relative;
+  text-decoration: none;
+}
+
+.products_design a:hover {
+  text-shadow: 0 0 10px #000;
+  color: #FFFFFF
+}
+
+.products_design::after {
+  content: "";
+  clear: both;
+  display: table;
+}

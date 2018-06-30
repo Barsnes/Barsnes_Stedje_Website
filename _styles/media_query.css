@@ -1,0 +1,222 @@
+@media (max-width: 1400px) {
+  .products_images {
+    margin-top: 15em;
+  }
+}
+
+@media (max-width: 1200px) {
+
+.about_images {
+  width: 70vw;
+  margin: 30vw 15vw 0 15vw;
+}
+
+.about_images img{
+  position: absolute;
+  width: 7em;
+  left: 0;
+}
+
+.tobias,.endre {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  padding-left: 8em
+}
+
+.tobias h2, .endre h2, .development h2, .design h2, .pictures h2, .video h2 {
+  display: inline-block;
+  position: relative;
+  font-size: 1.8em;
+  margin: auto;
+  padding: .4em;
+}
+
+.tobias p, .endre p, {
+  font-size: 1em;
+}
+
+.development p, .design p, .pictures p, .video p {
+  padding: .5em
+}
+
+.products_images {
+  margin: 12em 10vw 0 10vw;
+}
+
+.container h1 {
+  font-size: 3em
+}
+
+}
+
+@media (max-width: 1050px) {
+  .products_images {
+    margin: 10em 10vw 0 10vw;
+    display: block;
+  }
+
+  .products_images img {
+    width: 100%;
+    display: block;
+  }
+
+  .development , .design , .pictures , .video  {
+    display: block;
+  }
+
+  .project_1, .project_2, .project_3, .project_4, .project_5, .project_6 {
+    width: 50%;
+    height: 27em
+  }
+
+  .text__finding_futures {
+    position: absolute;
+    margin: auto;
+    display: block;
+    width: 50%;
+    overflow-x: hidden;
+  }
+
+  .text__finding_futures img {
+    position: absolute;
+    right: 1000vw;
+  }
+
+  .container {
+    width: 80vw;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  p {
+    font-size: 1.2em;
+    display: block;
+    z-index: 100;
+    top: 0;
+    text-shadow: 0 0 10px #00000060;
+  }
+
+  .top_p p {
+    margin-top: 15vh
+  }
+
+  .top_p {
+      padding-right: 20vw;
+  }
+
+  .top_quote {
+    font-size: 4em;
+    margin-left: 10vw;
+    text-shadow: 0 0 10px #00000060;
+  }
+
+  .about_images {
+    display: block;
+    margin-top: 20em
+  }
+
+}
+
+@media (max-width: 500px) {
+
+.design_middle {
+  height: 150em;
+}
+
+.footer p {
+  font-size: .8em
+}
+
+p {
+  font-size: 1em;
+}
+
+.background_top h1,.design_top h1 {
+  font-size: 3em;
+}
+
+.container h1 {
+font-size: 2em;
+}
+
+.top_p {
+  padding-right: 0vw;
+  padding-left: 8vw
+}
+
+.header {
+  font-size: .5em;
+}
+
+.about_images {
+  margin-top: 12em
+}
+
+.about_images h1,.products_images h1,.products_design h1 {
+  font-size: 2em
+}
+
+.tobias h2,
+.endre h2 {
+  display: inline-block;
+  position: relative;
+  font-size: 1.4em;
+  margin: auto;
+  padding: .4em .4em .4em 0;
+}
+
+.development h2,.design h2,.pictures h2,.video h2,.project_1 h2,.project_2 h2,.project_3 h2,.project_4 h2 {
+  display: inline-block;
+  position: relative;
+  font-size: 1.4em;
+  margin: auto;
+  padding: .2em;
+}
+
+.development p,.design p,.pictures p,.video p,.project_1 p,.project_2 p,.project_3 p,.project_4 p {
+  padding: .4em;
+}
+
+.tobias p,.endre p{
+ display: flex;
+ padding: 0;
+ width: 80%;
+}
+
+nav a {
+	font-size: .6rem;
+}
+
+.top_p {
+  margin-top: -15em;
+  font-size: .8em;
+}
+
+.tobias,.endre, {
+  width: 100%;
+  padding-left: 0
+}
+
+.project_1, .project_2, .project_3, .project_4, .project_5, .project_6 {
+  width: 100%;
+}
+
+.design_mobile {
+  position: absolute;
+  right: 1000vw;
+}
+
+.products_design {
+  margin-top: 30em
+}
+
+.products_images {
+  margin-top: 10em
+}
+}
