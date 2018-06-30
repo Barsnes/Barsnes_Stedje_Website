@@ -16,7 +16,7 @@
   padding: 0;
   color: #FFF;
   font-family: 'PT Sans', sans-serif;
-  transition: ease-in-out 200ms
+  transition: ease-in-out 200ms;
 }
 
 footer {
@@ -519,6 +519,12 @@ textarea:focus {
   height: auto;
   display: block;
   margin: auto;
+}
+
+@media (max-width: 1400px) {
+  .products_images {
+    margin-top: 15em;
+  }
 }
 
 @media (max-width: 1200px) {
