@@ -47,7 +47,7 @@ html {
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   z-index: 2;
   background: #232323;
-  background-image: url("../images/header_images/picture__homepage.jpg");
+  background-image: url("../images/header_images/spoons.jpg");
   background-size: cover;
   position: relative;
 }
@@ -65,7 +65,7 @@ html {
 
 .middle {
   margin-top: -45vh;
-  height: auto;
+  height: 250vh;
   width: 100vw;
   padding-top: 20vh;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
@@ -97,24 +97,6 @@ html {
 .footer span {
   display: block;
   font-weight: 200;
-}
-
-
-.text__finding_futures {
-  position: absolute;
-  margin: 8em auto;
-  display: inline-block;
-  width: 50%;
-  overflow-x: hidden;
-  -webkit-filter: drop-shadow( 0 0 100px #00000070 );
-  filter: drop-shadow( 0 0 100px #00000070 );
-}
-
-.text__finding_futures img {
-  width: 35vw;
-  height: auto;
-  display: block;
-  margin: auto;
 }
 
 /* Header */
@@ -221,8 +203,9 @@ p {
 .products_images {
   position: relative;
   width: 80vw;
-  margin: 25vw 10vw 0 10vw;
+  margin: 26vw 10vw 0 10vw;
   display: flex;
+  padding: 2em;
   box-shadow: 0 0 30px #00000030;
   background: linear-gradient(to top right, #23232320, #23232305);
 }
@@ -243,7 +226,7 @@ p {
 
 .products_images img{
   display: block;
-  width: 100%;
+  width: 39vw;
   height: auto;
 }
 
