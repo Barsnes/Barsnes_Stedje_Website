@@ -2,10 +2,11 @@
   width: 10px;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #a2d565;
+  background-color: #fff;
+  box-shadow: 0 0 30px #000000
 }
 ::-webkit-scrollbar-track-piece {
-	background-color: #fff;
+	background-color: #aaa;
 }
 
 * {
