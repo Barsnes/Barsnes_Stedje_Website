@@ -7,7 +7,7 @@
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   z-index: 2;
   background: #232323;
-  background-image: url("https://source.unsplash.com/2000x1500/?design,dark");
+  background-image: url("../images/header_images/picture__projects.jpg");
   background-size: cover;
   position: relative;
 }
