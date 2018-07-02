@@ -167,13 +167,19 @@ p {
   text-shadow: 0 0 10px #00000060;
 }
 
-.background_top h1,.background_top p, {
+.background_top h1,.background_top p {
   position: relative;
   z-index: 10;
 }
 
+.product_container {
+  display: inline-block;
+  width: 45vw;
+  box-shadow: 0 0 30px #00000030;
+  background: linear-gradient(to top right, #23232320, #23232305);
+}
 
-.development h2,.design h2,.pictures h2,.video h2 {
+.product_container h2{
   display: block;
   position: relative;
   font-size: 1.8em;
@@ -181,7 +187,7 @@ p {
   padding: .3em
 }
 
-.development p,.design p,.pictures p,.video p {
+.product_container p{
   position: relative;
   display: block;
   font-size: 1em;
@@ -193,11 +199,9 @@ p {
 .products_images {
   position: relative;
   width: 80vw;
-  margin: 26vw 10vw 0 10vw;
+  margin: 25vw 0 0 10vw;
   display: flex;
-  padding: 2em;
-  box-shadow: 0 0 30px #00000030;
-  background: linear-gradient(to top right, #23232320, #23232305);
+
 }
 
 .products_images h1 {
@@ -216,11 +220,11 @@ p {
 
 .products_images img{
   display: block;
-  width: 39vw;
+  width: 100%;
   height: auto;
 }
 
-.middle h1,.design_middle h1 {
+.middle h1,.website_middle h1 {
   font-size: 4em;
 }
 
@@ -233,7 +237,7 @@ p {
 
 @media (max-width: 1200px) {
 
-.development h2, .design h2, .pictures h2, .video h2 {
+.development h2,.website h2{
   display: inline-block;
   position: relative;
   font-size: 1.8em;
@@ -242,7 +246,7 @@ p {
 }
 
 
-.development p, .design p, .pictures p, .video p {
+.development p,.website {
   padding: .5em
 }
 
@@ -267,26 +271,8 @@ p {
     display: block;
   }
 
-  .development , .design , .pictures , .video  {
+  .development , .website {
     display: block;
-  }
-
-  .project_1, .project_2, .project_3, .project_4, .project_5, .project_6 {
-    width: 50%;
-    height: 27em
-  }
-
-  .text__finding_futures {
-    position: absolute;
-    margin: auto;
-    display: block;
-    width: 50%;
-    overflow-x: hidden;
-  }
-
-  .text__finding_futures img {
-    position: absolute;
-    right: 1000vw;
   }
 
   .container {
@@ -337,7 +323,7 @@ p {
   font-size: 1em;
 }
 
-.background_top h1,.design_top h1 {
+.background_top h1 {
   font-size: 3em;
 }
 
