@@ -1,42 +1,30 @@
-/* Designs */
-
-.design_top {
-  height: 95vh;
-  width: 100vw;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-  z-index: 2;
-  background: #232323;
-  background-image: url("../images/header_images/picture__projects.jpg");
-  background-size: cover;
-  position: relative;
-}
-
-.design_middle {
-  margin-top: -45vh;
-  height: auto;
-  width: 100vw;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
-  background: linear-gradient(to bottom right, #fa5732, #ea5732);
-  z-index: 1;
-  position: relative;
-}
-
-.design_title {
-  position: relative;
-  margin-top: -35vh;
-  font-size: .8em;
-  padding-bottom: 4em;
+.products_design::before {
+  content: "";
+  width: 70%;
+  height: .5em;
   position: absolute;
-  right: 0;
+  background: #FFF;
+  top: -16.5em;
+  margin-left: 15%;
+  box-shadow: 0 0 20px #00000040;
+}
+
+.products_design::after {
+  content: "";
+  width: 70%;
+  height: .5em;
+  position: absolute;
+  background: #FFF;
+  bottom: -11.5em;
+  margin-left: 15%;
+  box-shadow: 0 0 20px #00000040;
 }
 
 .products_design {
   position: relative;
   height: auto;
   width: 80vw;
-  margin: 60vh 10vw 20em 10vw;
+  margin: 25em 10vw 10em 10vw;
   display: inline-block;
   box-shadow: 0 0 30px #00000030;
   background: linear-gradient(to top right, #23232320, #23232305);
