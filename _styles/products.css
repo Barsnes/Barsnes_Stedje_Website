@@ -18,41 +18,6 @@ html {
   overflow-x: hidden;
 }
 
-/* Background Style */
-
-.svg_logo {
-  width: 50vw;
-  fill: #FFFFFF50;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  -webkit-filter: drop-shadow( 0 0 50px #00000050 );
-  filter: drop-shadow( 0 0 50px #00000050 );
-}
-
-.background_top {
-  height: 95vh;
-  width: 100vw;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-  z-index: 2;
-  background: #232323;
-  background-image: url("../images/header_images/spoons.jpg");
-  background-size: cover;
-  position: relative;
-}
-
-.background_glass {
-  height: 95vh;
-  width: 100vw;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-  z-index: 3;
-  background: linear-gradient(to bottom, #00000000, #FFFFFF80);;
-  background-size: cover;
-  position: absolute;
-}
-
 .middle {
   margin-top: -45vh;
   height: 250vh;
@@ -92,25 +57,24 @@ html {
 /* Header */
 
 .header {
-  position: absolute;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  padding-top: 5vh;
-  max-height: 5vh;
+  position: relative;
+  padding-left: 10vw;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  height: 2em;
   text-shadow: 0 0 10px #00000060;
   z-index: 100;
+  background: #232323;
+  box-shadow: 0 0 40px #00000080;
 }
 
 nav ul {
-	margin: 0;
-	padding: -1.5em 0;
+	margin: auto;
 	list-style: none;
-  max-height: 5vh;
 }
 
 nav li {
 	display: inline-block;
-  max-height: 5vh;
 }
 
 nav a {
@@ -118,58 +82,12 @@ nav a {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: .9rem;
-	padding: .5em 1em .5em 0;
+	padding: 0 1em 0 0;
 	color: #FFF;
-  max-height: 5vh;
 }
 
 nav a:hover,nav a:focus{
 	color: #DDD;
-}
-
-.top_p {
-  margin-left: 15vw;
-  margin-right: 10vw;
-  margin-top: -20em;
-  font-size: .6em;
-  padding-right: 40vw;
-}
-
-.top_quote {
-  font-size: 8em;
-  margin-left: 10vw;
-  text-shadow: 0 0 10px #00000060;
-}
-
-/* Background Top */
-
-.background_top h1,.design_top h1 {
-  padding-left: 10vw;
-  padding-top: 20vh;
-  font-size: 6em;
-  text-transform: uppercase;
-  line-height: .8em;
-  margin: 0;
-  font-weight: 700;
-  text-shadow: 0 0 10px #00000060;
-}
-
-.background_top h1 span,.design_top h1 span {
-  display: block;
-}
-
-p {
-  position: relative;
-  font-size: 1.7em;
-  display: block;
-  z-index: 100;
-  top: 0;
-  text-shadow: 0 0 10px #00000060;
-}
-
-.background_top h1,.background_top p {
-  position: relative;
-  z-index: 10;
 }
 
 .product_container {
