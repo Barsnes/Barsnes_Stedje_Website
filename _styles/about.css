@@ -1,8 +1,19 @@
 /* About */
+.about_images::before {
+  content:"";
+  width: 50%;
+  margin-left: 25%;
+  height: .3em;
+  background: #FFF;
+  position: absolute;
+  top: -13em;
+  box-shadow: 0 0 20px #00000040
+}
+
 .about_images {
   position: relative;
   width: 60vw;
-  margin: 20vw 20vw 0 20vw;
+  margin: 30em 20vw 0 20vw;
   display: flex;
   box-shadow: 0 0 30px #00000030;
   background: linear-gradient(to top right, #23232320, #23232305);
