@@ -18,7 +18,7 @@
   width: 100vw;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
-  background: linear-gradient(to bottom right, #cc99ff, #9c1aff);
+  background: linear-gradient(to bottom right, #fa5732, #ea5732);
   z-index: 1;
   position: relative;
 }
