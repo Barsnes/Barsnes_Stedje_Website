@@ -1,4 +1,4 @@
-.products_design::before {
+.products_design:before {
   content: " ";
   display: block;
   width: 70%;
@@ -10,7 +10,7 @@
   box-shadow: 0 0 20px #00000040;
 }
 
-.products_design::after {
+.products_design:after {
   content: " ";
   display: block;
   width: 70%;
