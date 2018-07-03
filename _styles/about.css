@@ -1,6 +1,6 @@
 /* About */
 .about_images::before {
-  content:"";
+  content:" ";
   width: 50%;
   margin-left: 25%;
   height: .3em;
