@@ -1,5 +1,6 @@
 .products_design::before {
   content: " ";
+  display: block;
   width: 70%;
   height: .3em;
   position: absolute;
@@ -11,11 +12,12 @@
 
 .products_design::after {
   content: " ";
+  display: block;
   width: 70%;
   height: .3em;
   position: absolute;
   background: #FFF;
-  bottom: -11.5em;
+  bottom: -10.5em;
   margin-left: 15%;
   box-shadow: 0 0 20px #00000040;
 }
