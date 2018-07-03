@@ -1,26 +1,4 @@
-.products_design::before {
-  content: " ";
-  display: block;
-  width: 70%;
-  height: 5px;
-  position: absolute;
-  background: #FFF;
-  top: -16.5em;
-  margin-left: 15%;
-  box-shadow: 0 0 20px #00000040;
-}
 
-.products_design::after {
-  content: " ";
-  display: block;
-  width: 70%;
-  height: 5px;
-  position: absolute;
-  background: #FFF;
-  bottom: -10.5em;
-  margin-left: 15%;
-  box-shadow: 0 0 20px #00000040;
-}
 
 .products_design {
   position: relative;
