@@ -32,6 +32,7 @@
 
 .project_1, .project_2, .project_3, .project_4, .project_5, .project_6 {
   width: 33.33%;
+  height: auto;
   float: left;
   padding: 0;
   margin: 0;
@@ -47,18 +48,21 @@
 .products_design p {
   padding: .4em .4em 2em .4em;
   font-size: 1em;
-  margin-bottom: 3em;
+  line-height: auto
 }
 
 .products_design a {
   display: block;
-  color: orange;
   margin: auto;
   position: relative;
   text-decoration: none;
+  text-shadow: none;
+  font-weight: bold;
+  margin-bottom: 3em;
+  width: auto;
 }
 
 .products_design a:hover {
-  text-shadow: 0 0 10px #000;
-  color: #FFFFFF
+  text-shadow: 0 0 10px #00000070;
+  color: #FA5732
 }
