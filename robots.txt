@@ -76,7 +76,6 @@ Allow: *.js
 Allow: *.css
 Allow: /ads/preferences/
 Allow: /gpt/
-Disallow: /
 Noindex: /
 
 Sitemap: https://findingfutures.eu/sitemap.xml
