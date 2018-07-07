@@ -90,15 +90,33 @@ nav a:hover,nav a:focus{
 	color: #DDD;
 }
 
-.product_container {
+.products_title {
+  margin-top: 25em;
+  margin-left: 10vw;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px #00000060;
+}
+
+.all_products {
+  width: 100%;
   display: inline-block;
-  width: 45vw;
+  margin: 5vw 10vw 0 10vw;
+}
+
+.product_container {
+  width: 25vw;
+  height: auto;
+  display: inline-block;
   box-shadow: 0 0 30px #00000030;
   background: linear-gradient(to top right, #23232320, #23232305);
 }
 
-.product_container h2{
+.product_container span {
   display: block;
+  width: 15vw;
+}
+.product_container h2{
+  display: inline-block;
   position: relative;
   font-size: 1.8em;
   margin: auto;
@@ -109,20 +127,13 @@ nav a:hover,nav a:focus{
   position: relative;
   display: block;
   font-size: 1em;
+  max-height: 6em;
   text-shadow: none;
   width: 90%;
   padding: .5em
 }
 
-.products_images {
-  position: relative;
-  width: 80vw;
-  margin: 25vw 0 0 10vw;
-  display: flex;
-
-}
-
-.products_images h1 {
+.all_products h2 {
   display: block;
   position: absolute;
   top: -2em;
@@ -131,14 +142,10 @@ nav a:hover,nav a:focus{
   text-shadow: 0 0 10px #00000060;
 }
 
-.products_images span {
-  position: relative;
-  display: flex;
-}
 
-.products_images img{
-  display: block;
-  width: 100%;
+.all_products img{
+  display: inline-block;
+  width: 25vw;
   height: auto;
 }
 
